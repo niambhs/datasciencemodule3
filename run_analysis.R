@@ -77,9 +77,7 @@ run_analysis <- function() {
   #of each variable for each activity and each subject.
   mdata <- melt(mean_and_std_df, id=c("Subject","Activity"))
   activityMeans <- cast(mdata, Subject+Activity~variable, fun.aggregate = mean)
-  
-  head(mean_and_std_df)
-  str(activityMeans)
+ 
   write.table(activityMeans,"activityMeans.txt", row.name=FALSE)
   
 }

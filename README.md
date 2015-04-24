@@ -44,12 +44,11 @@ mean_and_std_df activity id to the activity_labels value.
 
 #### Appropriately labels the data set with descriptive variable names. 
 I tried following the standard as outlined in the course notes on week 4, and the discussion
-thread notes:
-* names of variables should
-** be all lower case
-** be descriptive
-** not repeated
-** not contain non-alphabetic characters or numbers.
+thread notes, the names of variables should  
+* be all lower case,
+* be descriptive,
+* not be repeated,
+* not contain non-alphabetic characters or numbers.
 
 I changed the variable names so that the indiviual words started in upper case. I was very conflicted in how I renamed the variables names, in my opinion, sseperation with '_' is easier to read, but does lengthen the name. My transformations are as follows:  
 * t -> time
